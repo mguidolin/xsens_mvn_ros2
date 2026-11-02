@@ -18,8 +18,8 @@
 #include <rclcpp_lifecycle/lifecycle_publisher.hpp>
 #include <std_msgs/msg/string.hpp>
 #include <std_srvs/srv/trigger.hpp>
-#include <tf2_ros/buffer.h>                                                // NOLINT(build/include_order)
-#include <tf2_ros/transform_listener.h>                                    // NOLINT(build/include_order)
+#include <tf2_ros/buffer.hpp>                                                // NOLINT(build/include_order)
+#include <tf2_ros/transform_listener.hpp>                                    // NOLINT(build/include_order)
 #include <xsens_mvn_ros2_description/segment_defs.hpp>
 #include <xsens_mvn_ros2_description/xsens_urdf_publisher_parameters.hpp>
 

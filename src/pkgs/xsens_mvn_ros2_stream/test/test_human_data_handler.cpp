@@ -6,6 +6,8 @@
 #include <thread>
 #include <vector>
 
+#include <rclcpp/rclcpp.hpp>
+
 #include "xsens_mvn_ros2_stream/human_data_handler.hpp"
 
 namespace

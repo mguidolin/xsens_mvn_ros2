@@ -14,9 +14,9 @@
 #include <rclcpp/rclcpp.hpp>
 #include <rclcpp_lifecycle/lifecycle_node.hpp>
 #include <sensor_msgs/msg/joint_state.hpp>
-#include <tf2_ros/buffer.h>                                                // NOLINT(build/include_order)
-#include <tf2_ros/transform_broadcaster.h>                                 // NOLINT(build/include_order)
-#include <tf2_ros/transform_listener.h>                                    // NOLINT(build/include_order)
+#include <tf2_ros/buffer.hpp>                                                // NOLINT(build/include_order)
+#include <tf2_ros/transform_broadcaster.hpp>                                 // NOLINT(build/include_order)
+#include <tf2_ros/transform_listener.hpp>                                    // NOLINT(build/include_order)
 #include <xsens_mvn_msgs/msg/link_state_array.hpp>
 
 class SkeletonPublisherTest : public ::testing::Test
